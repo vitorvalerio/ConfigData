@@ -9,35 +9,25 @@ server:
 
 ---
 spring:
-  application:
-    name: lab-5-subject
   profiles: subject
 words: I, You, He, She, It
 
 ---
 spring:
-  application:
-    name: lab-5-verb
   profiles: verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
-  application:
-    name: lab-5-noun
   profiles: noun
 words: boat,book,vote,seat,backpack,partition,groundhog
 
 ---
 spring:
-  application:
-    name: lab-5-article
   profiles: article
 words: a,the
 
 ---
 spring:
-  application:
-    name: lab-5-adjective
   profiles: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
